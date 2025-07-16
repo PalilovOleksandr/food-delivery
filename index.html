@@ -3,31 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>FoodSta</title>
   </head>
   <body>
-    <header>
+    <header class="top-section">
       <a href="./index.html">
         <svg width="66" height="52">
           <use href="./images/icons.svg#logo"></use>
         </svg>
       </a>
-      <button>
-        <svg width="28" height="28">
+      <button class="open-menu">
+        <svg width="28" height="28" class="burger-menu">
           <use href="./images/icons.svg#menu"></use>
         </svg>
       </button>
     </header>
     <main>
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
+      <section class="hero">
+        <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
+        <p class="descr-hero">
           With just a few clicks, you can have your favorite meals delivered
           straight to your doorstep, no matter where you are. Order now and
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
         </p>
-        <button>Order Now</button>
+        <button type="submit" class="btn-order">Order Now</button>
       </section>
       <section>
         <h2 class=""></h2>
@@ -39,7 +46,7 @@
           "
           alt="apple"
         />
-        <h3>What's Special About Our Offerings</h3>
+        <h2>What's Special About Our Offerings</h2>
         <p>
           With our platform, you can browse through a diverse selection of
           cuisines and local restaurants, and choose from a variety of dishes
@@ -49,7 +56,7 @@
           <svg width="32" height="32">
             <use href="./images/icons.svg#rocket"></use>
           </svg>
-          <h4>Fasest Delivery</h4>
+          <h3>Fasest Delivery</h3>
           <p>
             Our advanced logistics system and dedicated delivery partners ensure
             that your meals are delivered to you within 30-minutes.
@@ -59,7 +66,7 @@
           <svg width="32" height="32">
             <use href="./images/icons.svg#touch"></use>
           </svg>
-          <h4>Easy to order</h4>
+          <h3>Easy to order</h3>
           <p>
             You can browse through a wide variety of cuisines and restaurants,
             select your favorite meals, and place your order in just a few
@@ -114,37 +121,76 @@
         <div>
           <ul>
             <li>
-              <svg width="17" heigth="16">
-                <use href="./images/icons.svg#star"></use>
-              </svg>
+              <div>
+                <svg width="101" heigth="16">
+                  <use href="./images/icons.svg#stars"></use>
+                </svg>
+                <p>
+                  "The Best app I have used to order food in a while, so many
+                  options to choose from too, I would recommend to a freind, No
+                  questions asked"
+                </p>
+                <div>
+                  <img src="" alt="" />
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
             </li>
             <li>
-              <svg width="17" heigth="16">
-                <use href="./images/icons.svg#star"></use>
-              </svg>
-            </li>
-            <li>
-              <svg width="17" heigth="16">
-                <use href="./images/icons.svg#star"></use>
-              </svg>
-            </li>
-            <li>
-              <svg width="17" heigth="16">
-                <use href="./images/icons.svg#star"></use>
-              </svg>
-            </li>
-            <li>
-              <svg width="17" heigth="16">
-                <use href="./images/icons.svg#star"></use>
-              </svg>
+              <div>
+                <svg width="101" heigth="16">
+                  <use href="./images/icons.svg#stars"></use>
+                </svg>
+                <p>
+                  "The ease with which I can just go in and order what i want
+                  was amazing, It has been a very pleasant experience ordering
+                  from this app"
+                </p>
+                <div>
+                  <img src="" alt="" />
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
         <h3>
-          “The Best app I have used to order food in a while, so many options to
-          choose from too, I would recommend to a freind, No questions asked”
+          "The Best app I have used to order food in a while, so many options to
+          choose from too, I would recommend to a freind, No questions asked"
         </h3>
       </section>
+      <section id="subscribe">
+        <img src="" alt="" />
+        <h2></h2>
+        <p></p>
+        <input type="text" />
+        <button type="submit"></button>
+      </section>
     </main>
+    <footer>
+      <img src="" alt="" />
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="">
+        <input type="text" />
+        <button type="submit"></button>
+      </label>
+      <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
+      <ul>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">Cookies Settings</a></li>
+      </ul>
+      <p>2022 FoodSta. All right reserved.</p>
+    </footer>
   </body>
 </html>
